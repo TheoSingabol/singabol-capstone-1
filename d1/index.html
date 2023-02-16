@@ -1,0 +1,167 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Theo Cedrick D. Singabol | Web Developer Portfolio</title>
+
+	<!-- Google Fonts -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	</head> 
+	<body>
+		<!-- Navbar start -->
+		<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+			<a class="navbar-brand" href="#">Theo</a>
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#portfolio-nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="portfolio-nav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active">
+						<a class="nav-link active" href="#landing">Home <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#about-us">About Us</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#gallery">Gallery</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#contact-us">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- Navbar end -->
+
+		<div class="container-fluid">
+
+			<!-- Landing Section Start -->
+			<section id="landing" class="text-center jumbotron"> 
+				<h1>Full Stack Web Developer</h1>
+				<p>Hi! My name is Theo Cedrick D. Singabol and I love building things from scratch.</p>
+				<img src="../images/kape.jpg" class="rounded-circle">
+			</section>
+			<!-- Landing section end -->
+
+			<!-- About Us section start -->
+		<section id="about-us" class="text-center jumbotron	py-5 row">
+			<div class="text-center col-md-12 py-5 mt-5">
+			<h2 class="text-center text-dark">About Us</h2>
+			<hr class="custom-hr mx-auto">
+
+			<div class="d-none d-lg-inline-block w-100 mt-20">
+				<img src="../images/theo.jpg" class="rounded-circle bg-white">
+			</div>
+		</div>
+
+			<div class="text-center mt-4 bg-accent-2">
+				<p class="text-center text-white"> Good Day! I am Theo Cedrick D. Singabol, a Grade 12 Student of Antique National School under the Science, Technology, Engineering and Mathematics (STEM) Strand. Currently, I am 18 years old and was born on May 15, 2004. I love to travel, adventure and bond with my friends. I am currently enrolled in the Zuitt Bootcamp as I am curious and interested about coding. I hope I can use these learnings and knowledge in the future.</p>	
+			</div>
+		</section>
+<!-- gallery section start -->
+		<section id="gallery" class="py-5 row">
+			<div class="col-md-12 py-5">
+				<h2 class="text-center text-white"> Gallery </h2>	
+				<hr class="custom-hr mx-auto">
+			</div>
+			
+			<div class="col">
+				<div class="row my-3">
+					<div class="col-md-4">
+						<div class="gallery my-2">
+							<img class="img-cover" src="../images/read.jpg">	
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gallery my-2">
+							<img class="img-cover" src="../images/basketball.jpg">	
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gallery my-2">
+							<img class="img-cover" src="../images/movie.png">	
+						</div>
+					</div>
+				</div>
+				<div class="row my-3">
+					<div class="col-md-4">
+						<div class="gallery my-2">
+							<img class="img-cover" src="../images/travel.jpg">	
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gallery my-2">
+							<img class="img-cover" src="../images/code.jpg">	
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gallery my-2">
+							<img class="img-cover" src="../images/coffee.jpg">	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- gallery section end -->
+
+	<!-- contact us section start -->
+	<section id="contact-us" class="row py-5">
+			<div class="col-md-12 mb-5">
+				<h2 class="text-center text-dark"> Contact Us </h2>	
+				<hr class="custom-hr mx-auto">
+			</div>
+
+			<div class="col-12 bg-accent-2">
+				<form class="p-5">
+				  <div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label for="fullname" class="text-white">Full Name</label>
+				      <input type="text" class="form-control" id="fullname" placeholder="Full Name">
+				    </div>
+				    <div class="form-group col-md-6">
+				      <label for="inputEmail4" class="text-white">Email</label>
+				      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-row">
+				    <div class="form-group col-md-12">
+					    <label for="exampleFormControlTextarea1" class="text-white">Your Message</label>
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>	
+				  </div>
+				  <button type="submit" class="btn btn-primary">Send</button>
+				</form>
+				<div class="socialmedia">
+					<h2 class="text-center text-light">Social Media</h2>
+					<ul>
+						<a target="_blank" href="https://www.facebook.com/profile.php?id=100009174504444&mibextid=LQQJ4d" class="text-center text-white">Facebook</a>
+						<a target="_blank" href="https://www.instagram.com/?next=%2F" class="text-center text-white">Instagram</a>
+						<a target="_blank" href="https://twitter.com/oehtkcirdec" class="text-center text-white">Twitter</a>
+
+					</ul>
+				</div>
+			</div>
+
+	
+			</section>	
+
+	<!-- Bootstrap Script -->
+			<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</body>
+</html>
